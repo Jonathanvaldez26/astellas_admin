@@ -1,6 +1,6 @@
 <?php echo $header;?>
 <title>
-    Asistentes - MUSA - GRUPO LAHE    
+    Asistentes - ASTELLAS - GRUPO LAHE    
 </title>
 <body class="g-sidenav-show  bg-gray-100">
     <?php echo $asideMenu;?>
@@ -82,7 +82,7 @@
                 <div class="card card-body mt-n6 overflow-hidden">
                     <div class="row gx-4">
                         <div class="col-auto">
-                            <div class="bg-gradient-musa avatar avatar-xl position-relative">
+                            <div class="bg-gradient-red avatar avatar-xl position-relative">
                                 <!-- <img src="../../assets/img/bruce-mars.jpg" alt="profile_image" class="w-100 border-radius-lg shadow-sm"> -->
                                 <span class="fa fa-users" style="font-size: xx-large;"></span>
                             </div>
@@ -90,7 +90,7 @@
                         <div class="col-auto my-auto">
                             <div class="h-100">
                                 <h5 class="mb-1">
-                                    Invitados MUSA
+                                    Invitados ASTELLAS
                                 </h5>
                                 <p class="mb-0 font-weight-bold text-sm">
                                 </p>
@@ -150,7 +150,7 @@
                                                 <input class="form-control mr-sm-2" style="font-size: 35px;" autofocus type="search" id="search" name="search" placeholder="Ej. Adrian Segura Becerra - XaS6cr" aria-label="Search">
                                             </div>
                                             <div class="col-12 col-md-12 mt-md-2">
-                                                <button class="btn max-btn-lg bg-gradient-pink-white text-gray my-2 my-sm-0" type="submit">Buscar</button>
+                                                <button class="btn max-btn-lg bg-gradient-red text-gray my-2 my-sm-0" type="submit" style="color:#fff;">Buscar</button>
                                             </div>
                                         </div>
                                        
@@ -249,7 +249,7 @@
 
         $('#user_list_table').DataTable({
             "drawCallback": function(settings) {
-                $('.current').addClass("btn bg-gradient-musa morado-musa-text btn-rounded").removeClass("paginate_button");
+                $('.current').addClass("btn bg-gradient-red white-astella-text btn-rounded").removeClass("paginate_button");
                 $('.paginate_button').addClass("btn").removeClass("paginate_button");
                 $('.dataTables_length').addClass("m-4");
                 $('.dataTables_info').addClass("mx-4");
@@ -260,7 +260,7 @@
                 $('.next.disabled').addClass("btn-outline-info opacity-5 btn-rounded mx-2");
                 $('.previous').addClass("btn-outline-info btn-rounded mx-2");
                 $('.next').addClass("btn-outline-info btn-rounded mx-2");
-                $('a.bg-gradiente-musa').addClass("btn-rounded");
+                $('a.bg-gradiente-red').addClass("btn-rounded");
             },
             "language": {
 

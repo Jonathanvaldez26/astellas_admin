@@ -1,9 +1,9 @@
 <?php echo $header; ?>
 <title>
     Asistentes Detalles - <?php echo $detalles_registro['nombre'] . ' ';
-                                                                                                        echo $detalles_registro['segundo_nombre'] . ' ';
-                                                                                                        echo $detalles_registro['apellido_paterno'] . ' ';
-                                                                                                        echo $detalles_registro['apellido_materno']; ?> - MUSA - GRUPO LAHE
+    echo $detalles_registro['segundo_nombre'] . ' ';
+    echo $detalles_registro['apellido_paterno'] . ' ';
+    echo $detalles_registro['apellido_materno']; ?> - ASTELLAS - GRUPO LAHE
 </title>
 <body class="g-sidenav-show  bg-gray-100">
     <?php echo $asideMenu;?>
@@ -251,7 +251,7 @@
                                         <div class="col-lg-6 col-md-6 col-12 my-auto text-end">
 
                                             <form class="form-horizontal" action="" method="POST">
-                                                <button class="btn bg-gradient-primary mb-0" type="button" title="Editar Asistente" data-toggle="modal" data-target="#editar-asistente"><i class="fa fa-edit"></i></button>
+                                                <button class="btn bg-gradient-red mb-0" type="button" title="Editar Asistente" data-toggle="modal" data-target="#editar-asistente"><i class="fa fa-edit" style="color: #fff;"></i></button>
 
                                                 <input id="input-email" type="text" class="form-control" value="<?php echo $email; ?>" readonly hidden>
 
