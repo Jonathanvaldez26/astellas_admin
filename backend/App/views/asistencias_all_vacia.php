@@ -29,7 +29,7 @@
         <div class="container-fluid">
             <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 ">
                 <img src="../../../assets/img/favicon.png" style="width: 180px; height: 40px; margin-left: 5px; margin-right: 5px;">
-                Asistencia MUSA 2022
+                Asistencia ASTELLAS 2022
             </a>
             <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
                 <ul class="navbar-nav navbar-nav-hover mx-auto">

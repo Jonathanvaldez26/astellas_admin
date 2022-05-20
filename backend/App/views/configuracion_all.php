@@ -1,6 +1,6 @@
 <?php echo $header; ?>
 <title>
-    Configuración - MUSA - GRUPO LAHE
+    Configuración - ASTELLAS - GRUPO LAHE
 </title>
 <body class="g-sidenav-show  bg-gray-100">
     <?php echo $asideMenu;?>
@@ -413,7 +413,7 @@
                                         <div class="card up-card">
                                             <div class="row m-4 text-center">
                                                 <div class="col-12 m-auto mb-3">
-                                                    <div class="bg-gradient-musa avatar avatar-xxl position-relative">
+                                                    <div class="bg-gradient-red avatar avatar-xxl position-relative">
                                                         <span class="fas fa-file-pdf m-3" style="font-size: xxx-large;"></span>
                                                     </div>
                                                 </div>
@@ -445,7 +445,7 @@
                                         <div class="card up-card">
                                             <div class="row m-4 text-center">
                                                 <div class="col-12 m-auto mb-3">
-                                                    <div class="bg-gradient-musa avatar avatar-xxl position-relative">
+                                                    <div class="bg-gradient-red avatar avatar-xxl position-relative">
                                                         <span class="fas fa-bell m-3" style="font-size: xxx-large;"></span>
                                                     </div>
                                                 </div>

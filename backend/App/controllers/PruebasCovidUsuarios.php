@@ -94,8 +94,8 @@ html;
 
               </td>
               <td class="text-center">
-                <button type="button" class="btn bg-gradient-primary btn_iframe btn-icon-only" data-document="{$value['documento']}" data-toggle="modal" data-target="#ver-documento-{$value['id_c_v']}">
-                  <i class="fas fa-eye"></i>
+                <button type="button" class="btn bg-gray btn_iframe btn-icon-only" data-document="{$value['documento']}" data-toggle="modal" data-target="#ver-documento-{$value['id_c_v']}">
+                  <i class="fas fa-eye" style="color: #fff;"></i>
                 </button>
                 <button class="btn bg-gradient-warning btn-icon-only" id="btn-status-{$value['id_c_v']}" onclick="pendientePrueba({$value['id_c_v']})" type="button" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="Poner pendiente prueba de {$value['nombre_completo']}">
                   <span class="fas fa-clock"></span>
@@ -266,8 +266,8 @@ html;
 
                 </td>
                 <td class="text-center">
-                  <button type="button" class="btn bg-gradient-primary btn_iframe btn-icon-only" data-document="{$value['documento']}" data-toggle="modal" data-target="#ver-documento-{$value['id_c_v']}">
-                    <i class="fas fa-eye"></i>
+                  <button type="button" class="btn bg-gray btn_iframe btn-icon-only" data-document="{$value['documento']}" data-toggle="modal" data-target="#ver-documento-{$value['id_c_v']}">
+                    <i class="fas fa-eye" style="color: #fff;"></i>
                   </button>
                   <button class="btn bg-gradient-warning btn-icon-only" id="btn-status-{$value['id_c_v']}" onclick="pendientePrueba({$value['id_c_v']})" type="button" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="Poner pendiente prueba de {$value['nombre_completo']}">
                     <span class="fas fa-clock"></span>
@@ -437,8 +437,8 @@ html;
 
                 </td>
                 <td class="text-center">
-                  <button type="button" class="btn bg-gradient-primary btn_iframe btn-icon-only" data-document="{$value['documento']}" data-toggle="modal" data-target="#ver-documento-{$value['id_c_v']}">
-                    <i class="fas fa-eye"></i>
+                  <button type="button" class="btn bg-gray btn_iframe btn-icon-only" data-document="{$value['documento']}" data-toggle="modal" data-target="#ver-documento-{$value['id_c_v']}">
+                    <i class="fas fa-eye" style="color: #fff;"></i>
                   </button>
                   <button type="button" class="btn bg-gradient-danger btn-icon-only" onclick="borrarPrueba({$value['id_c_v']})">
                     <i class="fa fa-solid fa-trash"></i>
@@ -857,18 +857,18 @@ html;
 
         $('#table_pendiente').DataTable({
           "drawCallback": function(settings) {
-              $('.current').addClass("btn bg-gradient-musa morado-musa-text btn-rounded").removeClass("paginate_button");
-              $('.paginate_button').addClass("btn").removeClass("paginate_button");
-              $('.dataTables_length').addClass("m-4");
-              $('.dataTables_info').addClass("mx-4");
-              $('.dataTables_filter').addClass("m-4");
-              $('input').addClass("form-control");
-              $('select').addClass("form-control");
-              $('.previous.disabled').addClass("btn-outline-info opacity-5 btn-rounded mx-2");
-              $('.next.disabled').addClass("btn-outline-info opacity-5 btn-rounded mx-2");
-              $('.previous').addClass("btn-outline-info btn-rounded mx-2");
-              $('.next').addClass("btn-outline-info btn-rounded mx-2");
-              $('a.btn').addClass("btn-rounded");
+            $('.current').addClass("btn bg-gradient-red white-astella-text btn-rounded").removeClass("paginate_button");
+            $('.paginate_button').addClass("btn").removeClass("paginate_button");
+            $('.dataTables_length').addClass("m-4");
+            $('.dataTables_info').addClass("mx-4");
+            $('.dataTables_filter').addClass("m-4");
+            $('input').addClass("form-control");
+            $('select').addClass("form-control");
+            $('.previous.disabled').addClass("btn-outline-info opacity-5 btn-rounded mx-2");
+            $('.next.disabled').addClass("btn-outline-info opacity-5 btn-rounded mx-2");
+            $('.previous').addClass("btn-outline-info btn-rounded mx-2");
+            $('.next').addClass("btn-outline-info btn-rounded mx-2");
+            $('a.bg-gradiente-red').addClass("btn-rounded");
           },
           "language": {
 
@@ -900,18 +900,18 @@ html;
 
         $('#table_rechazado').DataTable({
           "drawCallback": function(settings) {
-              $('.current').addClass("btn bg-gradient-musa morado-musa-text btn-rounded").removeClass("paginate_button");
-              $('.paginate_button').addClass("btn").removeClass("paginate_button");
-              $('.dataTables_length').addClass("m-4");
-              $('.dataTables_info').addClass("mx-4");
-              $('.dataTables_filter').addClass("m-4");
-              $('input').addClass("form-control");
-              $('select').addClass("form-control");
-              $('.previous.disabled').addClass("btn-outline-info opacity-5 btn-rounded mx-2");
-              $('.next.disabled').addClass("btn-outline-info opacity-5 btn-rounded mx-2");
-              $('.previous').addClass("btn-outline-info btn-rounded mx-2");
-              $('.next').addClass("btn-outline-info btn-rounded mx-2");
-              $('a.btn').addClass("btn-rounded");
+            $('.current').addClass("btn bg-gradient-red white-astella-text btn-rounded").removeClass("paginate_button");
+            $('.paginate_button').addClass("btn").removeClass("paginate_button");
+            $('.dataTables_length').addClass("m-4");
+            $('.dataTables_info').addClass("mx-4");
+            $('.dataTables_filter').addClass("m-4");
+            $('input').addClass("form-control");
+            $('select').addClass("form-control");
+            $('.previous.disabled').addClass("btn-outline-info opacity-5 btn-rounded mx-2");
+            $('.next.disabled').addClass("btn-outline-info opacity-5 btn-rounded mx-2");
+            $('.previous').addClass("btn-outline-info btn-rounded mx-2");
+            $('.next').addClass("btn-outline-info btn-rounded mx-2");
+            $('a.bg-gradiente-red').addClass("btn-rounded");
           },
           "language": {
 
@@ -943,18 +943,18 @@ html;
 
         $('#table_aprobado').DataTable({
           "drawCallback": function(settings) {
-              $('.current').addClass("btn bg-gradient-musa morado-musa-text btn-rounded").removeClass("paginate_button");
-              $('.paginate_button').addClass("btn").removeClass("paginate_button");
-              $('.dataTables_length').addClass("m-4");
-              $('.dataTables_info').addClass("mx-4");
-              $('.dataTables_filter').addClass("m-4");
-              $('input').addClass("form-control");
-              $('select').addClass("form-control");
-              $('.previous.disabled').addClass("btn-outline-info opacity-5 btn-rounded mx-2");
-              $('.next.disabled').addClass("btn-outline-info opacity-5 btn-rounded mx-2");
-              $('.previous').addClass("btn-outline-info btn-rounded mx-2");
-              $('.next').addClass("btn-outline-info btn-rounded mx-2");
-              $('a.btn').addClass("btn-rounded");
+            $('.current').addClass("btn bg-gradient-red white-astella-text btn-rounded").removeClass("paginate_button");
+            $('.paginate_button').addClass("btn").removeClass("paginate_button");
+            $('.dataTables_length').addClass("m-4");
+            $('.dataTables_info').addClass("mx-4");
+            $('.dataTables_filter').addClass("m-4");
+            $('input').addClass("form-control");
+            $('select').addClass("form-control");
+            $('.previous.disabled').addClass("btn-outline-info opacity-5 btn-rounded mx-2");
+            $('.next.disabled').addClass("btn-outline-info opacity-5 btn-rounded mx-2");
+            $('.previous').addClass("btn-outline-info btn-rounded mx-2");
+            $('.next').addClass("btn-outline-info btn-rounded mx-2");
+            $('a.bg-gradiente-red').addClass("btn-rounded");
           },
           "language": {
 

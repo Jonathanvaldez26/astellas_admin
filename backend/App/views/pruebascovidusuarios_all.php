@@ -1,6 +1,6 @@
 <?php echo $header; ?>
 <title>
-    Pruebas Covid - MUSA - GRUPO LAHE
+    Pruebas Covid - ASTELLAS - GRUPO LAHE
 </title>
 <body class="g-sidenav-show  bg-gray-100">
     <?php echo $asideMenu;?>
@@ -149,7 +149,7 @@
                 <div class="card card-body mt-n6 overflow-hidden">
                     <div class="row gx-4">
                         <div class="col-auto">
-                            <div class="bg-gradient-musa avatar avatar-xl position-relative">
+                            <div class="bg-gradient-red avatar avatar-xl position-relative">
                                 <!-- <img src="../../assets/img/bruce-mars.jpg" alt="profile_image" class="w-100 border-radius-lg shadow-sm"> -->
                                 <span class="fas fa-virus-slash" style="font-size: xx-large;"></span>
                             </div>
